@@ -36,14 +36,14 @@ This project is a **machine learning-powered web application** built using **Str
 
 ## 📁 Project Structure:
 employee-salary-predictor/
-├── app.py                 # Main Streamlit application file
+├── app.py                 
 ├── model/
-│   └── salary_model.pkl   # Trained machine learning model saved using joblib
+│   └── salary_model.pkl  
 ├── data/
-│   └── salary_data.csv    # (Optional) Dataset used to train the model
-├── README.md              # Project documentation
-├── requirements.txt       # All required Python libraries
-└── .gitignore             # Files/folders to ignore in version control
+│   └── salary_data.csv    
+├── README.md             
+├── requirements.txt      
+└── .gitignore             
 
 ## ⚙️ Installation & Setup:
 
