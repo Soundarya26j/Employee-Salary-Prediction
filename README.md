@@ -39,8 +39,10 @@ employee-salary-predictor/
 
 ├── app.py                 
 ├── model/
+
 │   └── salary_model.pkl  
 ├── data/
+
 │   └── salary_data.csv    
 ├── README.md             
 ├── requirements.txt      
