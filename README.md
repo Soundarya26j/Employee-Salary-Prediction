@@ -35,13 +35,19 @@ This project is a **machine learning-powered web application** built using **Str
 | Deployment    | ngrok (local → public)   |
 
 ## 📁 Project Structure
-employee-salary-prediction/
-├── app.py # Streamlit web interface
-├── model.pkl # Trained ML model
-├── train_model.py # Script to train and save model
-├── requirements.txt # All Python dependencies
-├── dataset.csv # (Optional) Dataset used for training
-└── README.md # Documentation
+employee-salary-predictor/
+│
+├── app.py                         # Main Streamlit application file
+├── model/
+│   └── salary_model.pkl           # Trained machine learning model saved using joblib
+│
+├── data/
+│   └── salary_data.csv            # (Optional) Dataset used to train the model
+│
+├── README.md                      # Project documentation
+├── requirements.txt               # All required Python libraries
+├── .gitignore                     # Files/folders to ignore in version control
+
 
 ## ⚙️ Installation & Setup:
 
