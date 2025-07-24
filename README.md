@@ -36,6 +36,7 @@ This project is a **machine learning-powered web application** built using **Str
 
 ## 📁 Project Structure:
 employee-salary-predictor/
+
 ├── app.py                 
 ├── model/
 │   └── salary_model.pkl  
